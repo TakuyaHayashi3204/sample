@@ -1,10 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>カーナビ - 最短ルート計算と地点検索</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 </head>
- 
 <body>
-    Hello World！
+
+<div id="search-container">
+    <input type="text" id="search-box" placeholder="住所や場所を検索">
+    <button id="search-button">検索</button>
+</div>
+
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="main.js"></script>
+
 </body>
 </html>
+
