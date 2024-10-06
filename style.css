@@ -1,0 +1,25 @@
+#map {
+    height: 90vh; /* 地図の高さを少し調整 */
+    width: 100%;
+}
+
+#search-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+#search-box {
+    width: 200px;
+    padding: 5px;
+}
+
+#search-button {
+    padding: 5px 10px;
+}
+
